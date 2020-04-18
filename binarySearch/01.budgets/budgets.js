@@ -74,15 +74,15 @@ let budgets = [120, 110, 140, 150];
 let M = 485;
 let expect = 127;
 
-budgets = [9, 8, 5, 6, 7];
+numbers = [9, 8, 5, 6, 7];
 M = 5;
 expect = 1;
 
-budgets = [1000, 1000, 1000, 1, 100];
+numbers = [1000, 1000, 1000, 1, 100];
 M = 500;
 expect = 133;
 
-let result = solution(budgets, M);
+let result = solution(numbers, M);
 console.log(`result: ${typeof result} ${result}`);
 if (result === expect) {
   console.log("\u001b[36m pass \u001b[0m");
