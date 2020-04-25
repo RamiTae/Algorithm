@@ -1,0 +1,12 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RamiTae/Algorithm.git",
+  "author": "RamiTae",
+  "scripts": {},
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "dependencies": {}
+}
